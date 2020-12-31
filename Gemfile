@@ -21,4 +21,5 @@ end
 
 gem "bootstrap", "~> 4.0"
 gem "jquery-rails"
-gem "mini_racer" 
+gem "mini_racer"
+gem "pg"
