@@ -1,1 +1,54 @@
 @import "bootstrap";
+
+.container {
+  width: auto;
+  max-width: 90%;
+  padding: 0 15px;
+}
+
+a {
+  color: #4D3726;
+}
+
+.home-main-content {
+  background-image: url(asset-path("danzarin.jpg"));
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 100px;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  color: #4D3726;
+  font-weight: bold;
+}
+
+.home-soon {
+  font-size: 150px;
+}
+
+.home-tuned {
+  font-size: 20px;
+}
+
+.footer {
+  vertical-align: middle;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social a:first-child {
+  padding-right: 5px;
+}
