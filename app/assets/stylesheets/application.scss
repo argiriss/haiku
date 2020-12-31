@@ -11,8 +11,9 @@ a {
 }
 
 .home-main-content {
-  background-image: url(asset-path("danzarin.jpg"));
+  background-image: image-url(asset-path("danzarin.jpg"));
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
@@ -27,11 +28,11 @@ a {
   margin: 0 auto;
   text-align: center;
   color: #4D3726;
-  font-weight: bold;
 }
 
 .home-soon {
   font-size: 150px;
+  line-height: 1.2em;
 }
 
 .home-tuned {
@@ -46,9 +47,48 @@ a {
 }
 
 .footer-social {
-  text-align: center;
+  text-align: right;
 }
 
 .footer-social a:first-child {
   padding-right: 5px;
+}
+
+@media screen and (max-width: 540px) {
+  
+  .footer {
+    font-size: 17px;
+  }
+
+  .footer-social {
+    text-align: center;
+  }
+
+  .home-title {
+    padding-top: 10%;
+    font-size: 30px;
+  }
+
+  .developed {
+    text-align: center;
+  }
+
+  .home-soon {
+    font-size: 40px;
+  }
+
+  .home-text {
+    color: #f0f0f0;
+    position:absolute;
+    bottom: 40%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .home-tuned {
+    font-size: 17px;
+  }
+
 }
