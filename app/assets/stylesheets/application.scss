@@ -6,6 +6,16 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/brands';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
 
+@font-face {
+  font-family: 'Gotham_Bold';
+  src: url('Gotham_Bold.otf');
+}
+
+@font-face {
+  font-family: 'Gotham_Book';
+  src: url('Gotham_Book.otf');
+}
+
 .container {
   width: auto;
   max-width: 90%;
