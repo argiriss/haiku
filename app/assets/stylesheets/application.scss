@@ -97,6 +97,13 @@ a {
 }
 
 @media screen and (max-width: 540px) {
+  .info-text {
+    font-size: 45px;
+    margin-left: -15%;
+  }
+}
+
+@media screen and (max-width: 560px) {
 
   .container-fluid img {
     width:60%;
@@ -105,7 +112,7 @@ a {
 
   .coming-soon {
     font-size: 66px;
-    line-height: 40px;
+    line-height: 45px;
   }
   
   .landing-page {
