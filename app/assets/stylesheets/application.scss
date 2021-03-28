@@ -18,14 +18,18 @@ body {
 }
 
 .container-fluid {
-  width:100%;
-  height:auto;
-  position:relative;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .container-fluid img {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
+}
+
+.info-text img {
+  width: 105%;
 }
 
 .landing-page {
@@ -55,7 +59,7 @@ body {
     height: 85%;
     top: 3%;
     width: 10px;
-    right: -15px;
+    right: -25px;
     background-color: #ec1c21;
   }
 }
@@ -95,8 +99,16 @@ a {
     height:auto;
   }
 
+  .info-text img {
+    width: 40%;
+  }
+
+  .text-page {
+    margin-top: 15%;
+  }
+
   .coming-soon {
-    font-size: 66px;
+    font-size: 55px;
     line-height: 45px;
   }
   
@@ -109,7 +121,7 @@ a {
   .info-text {
     &::after {
       width: 6px;
-      right: 30%;
+      right: 40%;
     }
   }
 
