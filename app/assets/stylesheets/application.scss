@@ -41,8 +41,8 @@ body {
 
 .coming-soon {
   align-self: flex-end;
-  font-size: 50px;
-  line-height: 33px;
+  font-size: 80px;
+  line-height: 50px;
   font-weight: bold;
 }
 
@@ -52,16 +52,15 @@ body {
 
 .info-text {
   font-size: 50px;
-  line-height: 70px;
+  line-height: 40px;
   position: relative;
-  word-spacing: 10px;
+  white-space: pre;
 
   &::after {
     position: absolute;
     content: "";
-    height: 90%;
-    top: 5%;
-    bottom: 5%;
+    height: 92%;
+    top: 3%;
     width: 10px;
     right: -15px;
     background-color: #ec1c21;
